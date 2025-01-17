@@ -18,12 +18,17 @@ import csv
 from typing import Dict
 
 print('''
-\033[1;92m Recoded By NAIMUL HACKER 👑 
-BiRi_B@B@
-Telegram:https://t.me/termux_hacker_bd
-One line Command:\nsudo python Wifi_Hack/birihack.py -i wlan0 -K\n
-For Help Type:\npython Wifi_Hack/birihack.py --help\033[0m
-''')
+	
+SIMPLE WIFI HACKING TOOL
+
+
+███████╗██████╗░███╗░░██╗
+██╔════╝██╔══██╗████╗░██║
+█████╗░░██████╔╝██╔██╗██║
+██╔══╝░░██╔══██╗██║╚████║
+██║░░░░░██║░░██║██║░╚███║
+╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝\n\t\t\033[1;36mNAIMUL HACKER 👑
+                                                    \n\t\t[\033[1;32m*\033[1;37m] NAME        : NAIMUL HACKER 👑 \n\t\t[\033[1;32m*\033[1;37m] WORK ONLY   : GREEN-COLOR WIFI\n\t\t[\033[1;32m*\033[1;37m] AUTHOR      : NAIMUL HACKER 👑 \n\t\t[\033[1;32m*\033[1;37m] Version     : NAIMUL HACKER 👑2.3 \n\t\t[\033[1;32m*\033[1;37m] FACEBOOK    : @NAIMUL BARI 👑 \n''')
 class NetworkAddress:
     def __init__(self, mac):
         if isinstance(mac, int):
