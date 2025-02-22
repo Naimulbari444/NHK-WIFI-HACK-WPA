@@ -7,8 +7,12 @@
 
 ```bash
  apt update && apt upgrade
+ pkg update && pkg upgrade
+ pkg install tsu
+ pkg install python
+ pkg install git
  pkg install -y root-repo
- pkg install -y git tsu python wpa-supplicant pixiewps iw
+ pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
  git clone https://github.com/Naimulbari444/NHK-WIFI-HACK-WPA
  cd NHK_WIFI_HACK.py
  chmod +x NHK_WIFI_HACK.py
