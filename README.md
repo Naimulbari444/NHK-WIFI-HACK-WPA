@@ -14,7 +14,7 @@
  pkg install -y root-repo
  pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
  git clone https://github.com/Naimulbari444/NHK-WIFI-HACK-WPA
- cd NHK_WIFI_HACK.py
+ cd NHK-WIFI-HACK-WPA
  chmod +x NHK_WIFI_HACK.py
  sudo python NHK_WIFI_HACK.py --help
 ```
