@@ -11,11 +11,11 @@ $ pkg install -y root-repo
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
 $ git clone https://github.com/Naimulbari444/NHK-WIFI-HACK-WPA
 $ cd NHK_WIFI_HACK.py
-$ chmod +x birihack.py
-$ sudo python birihack.py --help
+$ chmod +x NHK_WIFI_HACK.py
+$ sudo python NHK_WIFI_HACK.py --help
 ```
 
-#### Example : `sudo python birihack.py -i wlan0 -K`
+#### Example : `sudo python NHK_WIFI_HACK.py -i wlan0 -K`
 
 #### Note: 
 **First turn off your Wifi.**
